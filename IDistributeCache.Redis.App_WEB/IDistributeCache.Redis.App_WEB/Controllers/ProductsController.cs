@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using IDistributeCache.Redis.App_WEB.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
+using System.Text.Json.Serialization;
 
 namespace IDistributeCache.Redis.App_WEB.Controllers
 {
@@ -10,21 +13,27 @@ namespace IDistributeCache.Redis.App_WEB.Controllers
         {
             _distributeCache = distributeCache;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            DistributedCacheEntryOptions cache= new DistributedCacheEntryOptions();
-            cache.AbsoluteExpiration=DateTime.Now.AddMinutes(1);
+            DistributedCacheEntryOptions cache = new DistributedCacheEntryOptions();
+            cache.AbsoluteExpiration = DateTime.Now.AddMinutes(30);
+            Product product = new Product { Id = 1, Name = "Kalem", Price = 100 };
+            string jsonProduct = JsonConvert.SerializeObject(product);
+            await _distributeCache.SetStringAsync("product:1", jsonProduct);
 
-            _distributeCache.SetString("test", "burak", cache);
+
+
 
 
             return View();
         }
 
-        public IActionResult Show()
+        public  IActionResult Show()
         {
-            string name = _distributeCache.GetString("test");
-            ViewBag.Name = name;
+          
+            string jsonProducts = _distributeCache.GetString("product:1"); 
+           Product convert= JsonConvert.DeserializeObject<Product>(jsonProducts);
+            ViewBag.convert = convert;
 
 
             return View();

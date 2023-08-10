@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EWoubBP6fCsnT0RKSU5jR3sltoGAycam8A8mUDGvqERmdWpGVBOYQ8j3DUBJSNL+kW7qLYDd7yIYxFieg4cjFg==",
+  "dgSpecHash": "4o8nJvIe608OXnKwq/RxTsvwxmtnwB3DrxLoYV4QRsAuEPu30OLqUKs80DN0RVKh1KZqdZ1oLKyDPQyEeLSDmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\Asp.NET-Core-Redis-DistributeCache\\IDistributeCache.Redis.App_WEB\\IDistributeCache.Redis.App_WEB\\IDistributeCache.Redis.App_WEB.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\burak.ipekci\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.0\\pipelines.sockets.unofficial.2.2.0.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\stackexchange.redis\\2.2.4\\stackexchange.redis.2.2.4.nupkg.sha512",
     "C:\\Users\\burak.ipekci\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

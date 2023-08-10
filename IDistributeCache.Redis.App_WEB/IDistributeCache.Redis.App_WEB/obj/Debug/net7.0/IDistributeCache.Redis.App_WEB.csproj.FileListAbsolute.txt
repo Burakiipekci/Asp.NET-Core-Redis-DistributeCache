@@ -48,3 +48,4 @@ C:\Users\burak.ipekci\Documents\GitHub\Asp.NET-Core-Redis-DistributeCache\IDistr
 C:\Users\burak.ipekci\Documents\GitHub\Asp.NET-Core-Redis-DistributeCache\IDistributeCache.Redis.App_WEB\IDistributeCache.Redis.App_WEB\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\burak.ipekci\Documents\GitHub\Asp.NET-Core-Redis-DistributeCache\IDistributeCache.Redis.App_WEB\IDistributeCache.Redis.App_WEB\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\burak.ipekci\Documents\GitHub\Asp.NET-Core-Redis-DistributeCache\IDistributeCache.Redis.App_WEB\IDistributeCache.Redis.App_WEB\obj\Debug\net7.0\IDistributeCache.Redis.App_WEB.csproj.CopyComplete
+C:\Users\burak.ipekci\Documents\GitHub\Asp.NET-Core-Redis-DistributeCache\IDistributeCache.Redis.App_WEB\IDistributeCache.Redis.App_WEB\bin\Debug\net7.0\Newtonsoft.Json.dll
