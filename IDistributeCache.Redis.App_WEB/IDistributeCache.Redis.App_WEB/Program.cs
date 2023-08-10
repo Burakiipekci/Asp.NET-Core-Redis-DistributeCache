@@ -1,8 +1,8 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddStackExchangeRedisCache(options => options.Configuration="localhost:6379");     // Redis Servere ba?lanmak i�in verilir
+builder.Services.AddStackExchangeRedisCache(options => options.Configuration="localhost:6379");     // Redis Servere bağlanmak için verilir
 
 var app = builder.Build();
 
