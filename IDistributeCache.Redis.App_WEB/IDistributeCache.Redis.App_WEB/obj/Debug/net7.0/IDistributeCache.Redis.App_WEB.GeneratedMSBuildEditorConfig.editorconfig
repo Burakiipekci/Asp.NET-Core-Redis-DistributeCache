@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/burak.ipekci/Documents/GitHub/Asp.NET-Core-Redis-DistributeCache/IDistributeCache.Redis.App_WEB/IDistributeCache.Redis.App_WEB/Views/Products/Image.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW1hZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/burak.ipekci/Documents/GitHub/Asp.NET-Core-Redis-DistributeCache/IDistributeCache.Redis.App_WEB/IDistributeCache.Redis.App_WEB/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

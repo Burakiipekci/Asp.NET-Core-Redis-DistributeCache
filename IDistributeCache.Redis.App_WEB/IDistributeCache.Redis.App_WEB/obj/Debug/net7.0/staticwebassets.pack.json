@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\IDistributeCache.Redis.App_WEB.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\Asp.NET-Core-Redis-DistributeCache\\IDistributeCache.Redis.App_WEB\\IDistributeCache.Redis.App_WEB\\wwwroot\\Images\\1400x1050elektrikli-araba-fiyatlari-2023.jpg",
+      "PackagePath": "staticwebassets\\Images\\1400x1050elektrikli-araba-fiyatlari-2023.jpg"
+    },
+    {
       "Id": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\Asp.NET-Core-Redis-DistributeCache\\IDistributeCache.Redis.App_WEB\\IDistributeCache.Redis.App_WEB\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

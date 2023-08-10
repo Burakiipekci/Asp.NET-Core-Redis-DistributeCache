@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9On42BqQzyjJ3ohHLTMcMTxrHT5gdS2mkPDt4kWp1Iw=",
+  "Hash": "/xEz8yJvXwCVw551SHOVTKj2mdYaYVIqOWr0pMhqqZ8=",
   "Source": "IDistributeCache.Redis.App_WEB",
   "BasePath": "_content/IDistributeCache.Redis.App_WEB",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\Asp.NET-Core-Redis-DistributeCache\\IDistributeCache.Redis.App_WEB\\IDistributeCache.Redis.App_WEB\\wwwroot\\Images\\1400x1050elektrikli-araba-fiyatlari-2023.jpg",
+      "SourceId": "IDistributeCache.Redis.App_WEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\Asp.NET-Core-Redis-DistributeCache\\IDistributeCache.Redis.App_WEB\\IDistributeCache.Redis.App_WEB\\wwwroot\\",
+      "BasePath": "_content/IDistributeCache.Redis.App_WEB",
+      "RelativePath": "Images/1400x1050elektrikli-araba-fiyatlari-2023.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1400x1050elektrikli-araba-fiyatlari-2023.jpg"
     },
     {
       "Identity": "C:\\Users\\burak.ipekci\\Documents\\GitHub\\Asp.NET-Core-Redis-DistributeCache\\IDistributeCache.Redis.App_WEB\\IDistributeCache.Redis.App_WEB\\wwwroot\\js\\site.js",

@@ -48,5 +48,19 @@ namespace IDistributeCache.Redis.App_WEB.Controllers
 
             return View();
         }
+        public IActionResult ImageCache()
+        {
+            string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/1400x1050elektrikli-araba-fiyatlari-2023.jpg");
+            byte[] imageByte= System.IO.File.ReadAllBytes(path);
+
+            _distributeCache.Set("image", imageByte);
+            return View();
+        }
+        public IActionResult ImageShow()
+        {
+            byte[] imageByte=_distributeCache.Get("image");
+            return File(imageByte, "image.jpg");
+
+        }
     }
 }
